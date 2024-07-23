@@ -1,5 +1,5 @@
 from moviepy.editor import VideoFileClip
-import jason
+import json
 
 def split_video(video_file, manifest_file):
     with open(manifest_file, 'r') as f:
